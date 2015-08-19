@@ -1,0 +1,23 @@
+{
+  "name": "chat_app",
+  "version": "1.0.0",
+  "description": "A real-time chat application ugin Golang, AngularJS and Materialize CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/goozie001/ChatApp.git"
+  },
+  "author": "Dylan Richardson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goozie001/ChatApp/issues"
+  },
+  "homepage": "https://github.com/goozie001/ChatApp#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-shell": "^0.4.2"
+  }
+}
