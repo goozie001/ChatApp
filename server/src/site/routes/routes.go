@@ -6,7 +6,5 @@ import (
 )
 
 func Setup(router *mux.Router) {
-
-	router.Handle("/public", http.FileServer(http.Dir("/public")))
-
+	router.Handle("/", http.FileServer(http.Dir("public")))
 }

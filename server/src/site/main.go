@@ -3,12 +3,13 @@ package main
 import (
 	"github.com/gorilla/mux"
 	"net/http"
+	"site/models"
 	"site/routes"
 	"time"
 )
 
 func main() {
-	// TODO: Setup database connection
+	models.OpenConn()
 
 	// TODO: Setup middleware
 
